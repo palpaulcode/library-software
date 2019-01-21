@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="213.0" prefWidth="497.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" prefHeight="250.0" prefWidth="200.0">
+         <children>
+            <FontAwesomeIconView glyphName="USER" size="40" textAlignment="CENTER" wrappingWidth="32.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Member Name Holder">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text layoutX="33.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Member Email Holder">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text layoutX="33.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Member Contact">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="250.0" prefWidth="200.0">
+         <children>
+            <FontAwesomeIconView glyphName="BOOK" size="40" textAlignment="CENTER" wrappingWidth="32.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Book Name Holder">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text layoutX="33.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Author Holder">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text layoutX="33.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Publisher Holder">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="250.0" prefWidth="200.0">
+         <children>
+            <FontAwesomeIconView glyphName="USER" size="40" textAlignment="CENTER" wrappingWidth="32.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Issue Date Holder">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text layoutX="33.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No. of Days Holder">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text layoutX="33.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fine Holder">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+   </children>
+</HBox>

@@ -1,0 +1,144 @@
+                         
+/* 
+    Created on : Sep 16, 2018, 12:00:04 AM
+    Author     : TURNKEY
+*/
+
+* {
+   -fx-primary : #2A2E37;
+   -fx-secondary : FFFF8D;
+   -fx-primary-text : B2B2B2;
+   -fx-red : FF0000;
+   -fx-blue :#1976D2;
+}
+
+.root{
+    -fx-background-color : -fx-primary;
+}
+
+.glyph-icon {
+    -fx-fill : -fx-primary-text;
+}
+
+.buttons {
+    -fx-text-fill : -fx-primary-text;
+    -fx-background-color: -fx-primary;
+    -fx-border-color : -fx-secondary;
+    -fx-border-radius : 15px;
+    -fx-background-radius : 15px;
+}
+
+.buttons:hover {
+    -fx-border-color : -fx-secondary;
+    -fx-background-color : -fx-secondary;
+    -fx-text-fill : -fx-primary;
+}
+/*Drawer Buttons Styling*/
+.drawer-buttons {
+    -fx-text-fill : -fx-primary-text;
+    -fx-background-color: -fx-primary;
+    -fx-border-color : -fx-secondary;
+}
+
+.drawer-buttons:hover {
+    -fx-border-color : -fx-secondary;
+    -fx-background-color : -fx-secondary;
+    -fx-text-fill : -fx-primary;
+}
+
+.text-field {
+    -fx-text-fill : -fx-primary-text;
+    -fx-font-size : 10pt;
+    -jfx-focus-color : -fx-secondary;
+}
+
+.wrong-credentials {
+    -jfx-unfucus-color : -fx-red;
+    -jfx-focus-color : -fx-red;
+}
+/*Main Screen CSS Styling below*/
+
+/*TabPane Styling*/
+.tab {
+    -fx-pref-width : 350;
+    -fx-pref-height : 60;
+    -fx-background-color : -fx-primary;
+}
+
+.tab-header-background {
+    -fx-background-color : -fx-primary;
+}
+
+/*Menu Bar Styling*/
+.menu-bar {
+    -fx-base : -fx-primary;
+    -fx-background-color : -fx-primary;
+}
+
+.context-menu {
+    -fx-background-color : derive(-fx-primary, 50%);
+}
+
+/*Hamburger Styling*/
+.jfx-hamburger-icon {
+    -fx-spacing : 7;
+}
+
+.jfx-hamburger-icon StackPane {
+    -fx-background-color: -fx-secondary;
+    -fx-background-radius: 5px;
+}
+ 
+/*Toolbar buttons*/
+.toolbar-button{
+    -fx-background-color : derive(-fx-primary, 20%);
+}
+
+.toolbar-button:hover{
+    -fx-background-color : -fx-secondary;
+    -fx-text-fill : -fx-primary;
+}
+
+.toolbar-button:hover .glyph-icon {
+    -fx-fill : -fx-primary;
+}
+
+/*Text Styling*/
+.main-text {
+    -fx-fill : -fx-secondary;
+    -fx-font-size : 14pt;
+    -fx-text-alignment :center;
+}
+
+.submission-container {
+    -fx-background-color : derive(-fx-primary, 20%);
+}
+/*Dialog button styling*/
+.dialog-button{
+    -fx-background-color: -fx-blue;
+    -fx-border-color: -fx-blue;
+    -fx-text-fill: white;
+}
+
+.dialog-button:hover{
+    -fx-background-color: -fx-primary;
+    -fx-border-color: -fx-primary;
+    -fx-text-fill: white;
+}
+
+.jfx-layout-actions{
+    -fx-hgap : 12;
+}
+
+/*Chart Styling*/
+.data0.chart-pie {
+    -fx-pie-color: -fx-secondary;
+    -fx-border-color: derive(-fx-secondary, -30%);
+}
+.data1.chart-pie {
+    -fx-pie-color: -fx-blue;
+    -fx-border-color: derive(-fx-blue, -30%);
+}
+.chart-pie-label {
+    -fx-fill: -fx-secondary;
+}
