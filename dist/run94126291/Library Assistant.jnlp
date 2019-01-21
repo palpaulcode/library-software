@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Library Assistant.jnlp">
+  <information>
+    <title>Library Assistant</title>
+    <vendor>TURNKEY</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\commons-codec-1.5.jar" size="73098" download="eager" />
+    <jar href="lib\fontawesomefx-commons-8.15.jar" size="20957" download="eager" />
+    <jar href="lib\fontawesomefx-fontawesome-4.7.0-5.jar" size="136891" download="eager" />
+    <jar href="lib\gson-2.8.5.jar" size="241622" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2323355" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.13-bin.jar" size="753542" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Library Assistant" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="library.assistant.ui.main.Main"  name="Library Assistant" />
+  <update check="always"/>
+</jnlp>
